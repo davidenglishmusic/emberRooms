@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('field', { path: '/field' });
+  this.resource('road', { path: '/road' });
 });
 
 export default Router;
